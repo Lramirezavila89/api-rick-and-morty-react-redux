@@ -14,10 +14,10 @@ Para iniciar debemos utilizar:
 
 ## Instalación 🔧
 
-_1. Instalar **VISUAL STUDIO CODE** y sus plugins para cada referencia_
-_2. Descargamos nuestro proyecto y lo guardamos en un directorio de nuestro sistema operativo_
-_3. Accedemos al directorio del proyecto y abrimos Visual Studio Code ejecutando el directorio del proyecto_
-_4. Ejecutamos nuestro proyecto Ctrl + ñ y abrimos la terminal en VSC e Instalamos los siguientes comandos:_
+1. Instalar **VISUAL STUDIO CODE** y sus plugins para cada referencia
+2. Descargamos nuestro proyecto y lo guardamos en un directorio de nuestro sistema operativo
+3. Accedemos al directorio del proyecto y abrimos Visual Studio Code ejecutando el directorio del proyecto
+4. Ejecutamos nuestro proyecto Ctrl + ñ y abrimos la terminal en VSC e Instalamos los siguientes comandos:
 
 _( **Opción #1:** )_
 ```

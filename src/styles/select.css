@@ -1,0 +1,68 @@
+/*
+
+
+	
+		<select class="classic" >
+			<option>CMS Features</option>	
+		</select>
+
+
+
+*/
+
+
+select {
+    width: 100%;
+    height: var(--altura);
+    font-size: 15px;
+
+    /* styling */
+    background-color: var(--color-blanco);
+    border: 0;
+    border-radius: 0;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  
+  /* arrows */
+  
+  select.classic {
+    background-image: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23149ECA%27><path fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/></svg>');
+    background-position: 95% 50%;
+   
+    background-size: 1.25rem;
+    background-repeat: no-repeat;
+    transition: background 0.3 ease-in-out;
+
+  }
+  
+  select.classic:focus {
+    background-image: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23149ECA%27><path fill-rule=%27evenodd%27 d=%27M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z%27/></svg>');
+    background-position: 95% 50%;
+   
+    background-size: 1.25rem;
+    background-repeat: no-repeat;
+    transition: background 0.3 ease-in-out;
+    outline: 0;
+  }
+  
+  
+  
+
+
+
+
+
+
+  /*::::::::::::::::::::Select buscador::::::::::::::::::::::::::::*/

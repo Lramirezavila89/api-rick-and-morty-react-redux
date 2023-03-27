@@ -1,0 +1,49 @@
+/*__________AUDIO_______*/
+audio{
+  visibility: inherit !important;
+  position: absolute;
+  margin-top: -10000px;
+}
+
+
+
+.lds-facebook {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.lds-facebook div {
+  display: flex;
+  margin: 0 5px;
+  
+  left: 0px;
+  width: 13px;
+  background: var(--text);
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}

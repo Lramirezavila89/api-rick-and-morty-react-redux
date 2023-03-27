@@ -1,0 +1,618 @@
+/* space-grotesk-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-300.eot'); /* IE9 Compat Modes */
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-300.svg#SpaceGrotesk') format('svg'); /* Legacy iOS */
+  }
+  /* space-grotesk-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-regular.svg#SpaceGrotesk') format('svg'); /* Legacy iOS */
+  }
+  /* space-grotesk-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-500.svg#SpaceGrotesk') format('svg'); /* Legacy iOS */
+  }
+  /* space-grotesk-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-600.svg#SpaceGrotesk') format('svg'); /* Legacy iOS */
+  }
+  /* space-grotesk-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../public/font/space-grotesk/space-grotesk-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/font/space-grotesk/space-grotesk-v15-latin-700.svg#SpaceGrotesk') format('svg'); /* Legacy iOS */
+  }
+
+
+
+
+
+@import url('./styles/temas.css');
+@import url('./styles/header.css');
+@import url('./styles/body.css');
+@import url('./styles/select.css');
+@import url('./styles/buscador.css');
+@import url('./styles/loading.css');
+
+
+
+
+
+/*@import url('./styles/switch.css');*/
+body{
+    font-family: 'Space Grotesk' !important;
+    overflow-x: hidden !important;
+}
+a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+a div.card:hover{
+    background: var(--transparent);
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+.fondo{
+    background: var(--background);
+}
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    background: var(--background-2);
+    max-width: 500px;
+    max-height: auto;
+    padding: 10px;
+    min-width: 500px;
+}
+.card img{
+    width: 100px !important;
+}
+.card-title{
+    color:  var(--text);
+    font-weight: 700;
+    text-align: left;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text span,.card-text small,.card-text strong {
+    font-size: 14px ;
+}
+
+.toast:not(.show) {
+    display: block; 
+    width: 80px !important;
+}
+.boton-radio{
+    border: 1px solid var(--text) !important;
+    color: var(--text) !important;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    width: auto;
+    padding: 0px 10px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+}
+.boton-radio:hover, .boton-radio:checked{
+    border: 1px solid var(--text) !important;
+    color: var(--color-blanco) !important;
+    background: var(--text) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    color: var(--color-blanco) !important;
+    background-color: var(--text) !important;
+    border-color: var(--text) !important;
+}
+
+
+
+
+
+
+
+
+
+.accordion{
+    --bs-accordion-color: var(--color-blanco) !important;
+    --bs-accordion-bg: var(--background-4) !important;
+    --bs-accordion-btn-color: var(--text-tres) !important;
+
+
+    --bs-accordion-active-color: var(--background-3);
+    --bs-accordion-active-bg: var(--background-5);
+    --bs-accordion-border-color: var(--background);
+    --bs-accordion-btn-icon: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23149ECA%27><path fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/></svg>');
+
+    --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23149ECA%27><path fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/></svg>')
+}
+.accordion-body{
+    background: var(--color-blanco);
+}
+.accordion-button:focus {
+    border-color:none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid var(--background);
+    
+}
+.accordion-button {
+    font-size: 15px !important;
+}
+
+
+
+
+.toast{
+    --bs-toast-bg: var(--background-4) !important;
+}
+    
+.toast:hover{
+    background: var(--text) !important;
+}
+
+
+.cardR{
+    width: 140px;
+    min-width: 140px;
+    height: 100%;
+    max-width: 150px;
+    height: 230px;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;*/
+    background: var(--background-2);
+    border: 1px solid var(--color-borde-trans);
+    margin: 10px;
+    
+}
+a.AcardR {
+    max-width: 150px !important;
+    min-width: 150px !important;
+    height: auto !important;
+    display: flex;
+}
+a.AcardR:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+a.AcardR  .cardR-body-nombre {
+    font-size: 16px !important;
+}
+.Resident{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--text);
+    color: var(--text);
+    display: flex;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+
+.cardR-header{
+    width: 100%;
+    height: 40%;
+    border-radius: 0.375rem  0.375rem 0 0 ;
+    background: var(--background-4);
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 1;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.cardR-header img{
+    width: 100px;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+.cardR-body{
+    height: 60%;
+    width: 100%;
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-5);
+    border-radius: 0 0 0.375rem  0.375rem  ;
+}
+.cardR-body-nombre{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 5px;
+}
+.cardR-body span{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-primary);
+}
+
+
+.datosCardR{
+    background: var(--background-5);
+    color: var(--background-3);
+    max-height: 200px !important;
+    border-radius: 0.375rem;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    
+}
+.datosCardR div span.fs-3{
+    color: var(--text) !important;
+    font-weight: 600 !important;
+}
+.banner{
+    --bs-gutter-x: 0rem !important;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 483px) {
+   #buscadorB{
+    flex-direction: column !important;
+   }
+   .btn.buscador{
+    margin-bottom: 10px !important;
+    }
+    .btn.buscador[placeholder]::before{
+        content: 'buscar';
+    }
+    .bi.bi-arrows-fullscreen{
+        display: none !important;
+    }
+    #uw-datos{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .col-6{
+        width: 100% !important;
+    }
+    .modal-header{
+        flex-direction: column !important;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .modal-header .btn-close {
+        margin: 0 !important;
+    }
+
+   
+    
+}
+
+
+@media screen and (max-width: 550px) {
+   
+     .card{
+         width: 100% !important;
+         height: auto !important;
+         max-height: auto !important;
+         max-width: 220px !important;
+         min-width: auto !important;
+     }
+     #pw-25{
+         width: 100% !important;
+         height: auto !important;
+         max-width: 100% !important;
+         min-width: 100% !important;
+ 
+     }
+     #pw-25 img{
+         width: 100% !important;
+         max-width: 200px;
+     }
+     #pw-50{
+         width: 100% !important;
+         height: auto !important;
+         max-width: 100% !important;
+         min-width: 100% !important;
+         
+     }
+     #pw-75{
+         width: 100% !important;
+         height: auto !important;
+         max-width: 100% !important;
+         min-width: 100% !important;
+         text-align: center !important;
+         
+     }
+     #pw-100{
+         display: flex !important;
+         flex-direction: column !important;
+     }
+
+
+
+
+
+
+
+
+    #pwd-25{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+        background: var(--background-2) !important;
+        border-radius: 10px !important;
+        padding-bottom: 15px !important;
+
+    }
+    #pwd-25 img{
+        width: 100% !important;
+        max-width: 200px;
+    }
+    #pwd-50{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        
+    }
+    #pwd-75{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        text-align: center !important;
+        
+    }
+    #pwd-100{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+
+     #card-epi{
+        margin: 15px !important;
+     }
+     .card-title{
+        text-align:  center !important;
+     }
+     .range{
+        width: 90% !important;
+    }
+    #iw-25{
+        width: 100% !important;
+    }
+    #iw-50{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+     
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .navbar-nav{
+        align-items: center !important;
+    }
+    #buscadorB{
+        justify-content: center !important;
+    }
+    .container{
+        width: 100% !important;
+        height: 100% !important;
+        max-width: 100% !important;
+    }
+    #titulo{
+        padding-top: 30px !important;
+    }
+    .datosCardR {
+        text-align:  center !important;
+    }
+
+    
+    
+    #w-25{
+        width: 100% !important;
+        max-width: 100% !important;
+        
+    }
+    #w-50{
+        width: 100% !important;
+        max-width: 100% !important;
+        
+    }
+    #w-75{
+        width: 100% !important;
+        max-width: 100% !important;
+        
+    }
+    #w-100{
+        display: flex !important;
+        flex-direction: column !important;
+        
+    }
+
+
+
+    #ew-25{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+        flex-direction:column !important;
+
+    }
+    select{
+        width: 80% !important;
+    }
+    #ew-50{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        
+    }
+    #ew-75{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        
+    }
+    #ew-100{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+
+
+    #uw-25{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+
+    }
+    #uw-25 img{
+        width: 100% !important;
+        max-width: 200px;
+    }
+    #uw-50{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        
+    }
+    #uw-75{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        text-align: center !important;
+        
+    }
+    #uw-100{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .range{
+        width: 50%;
+    }
+
+
+
+    
+    #iw-50{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        
+    }
+    #iw-75{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        text-align: center !important;
+        
+    }
+    #iw-100{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+}

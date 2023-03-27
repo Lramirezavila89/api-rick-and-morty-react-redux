@@ -1,0 +1,220 @@
+.banner{
+    width: 100%;
+    height: auto;
+    max-height: 800px;
+    position: relative;
+    background: transparent;
+    z-index: 0 !important;
+}
+.carousel-item {
+    max-height: 800px; 
+    color: var(--color-blanco) !important;
+    font-family: 'Space Grotesk' !important;
+    align-items: center;
+
+}
+.carousel button{
+    z-index: 3 !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 25px !important;
+    height: 12px !important;
+    border-radius: 5px !important;
+    border: 2px solid var(--color-blanco) !important;
+    background-color: var(--color-blanco) !important;
+    
+    border-top: none !important;
+    border-bottom: none !important;
+    opacity: 1 !important;
+}
+.carousel-indicators [data-bs-target].active{
+    background-color: var(--text) !important;
+    border: 1px solid var(--color-blanco) !important;
+}
+
+.carousel-item-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.carousel-item img{
+  width: 100%; 
+
+}
+
+.carousel-item h5{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--color-blanco) !important;
+    z-index: 3 !important;
+    position: relative !important;
+}
+.carousel-item p{
+    font-size: 30px;
+    color: var(--color-blanco) !important;
+    z-index: 3 !important;
+    position: relative !important;
+}
+/*
+.carousel-item-img::after {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:var(--transparent);
+    z-index:2 !important;
+  }*/
+
+
+  .carousel-control-prev, .carousel-control-next {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    background: transparent !important;
+    opacity: 1 !important;
+    top: 45%;
+    margin: 0 15px;
+  }
+
+.carousel-control-prev i, .carousel-control-next i{
+    font-size: 40px !important;
+}
+
+
+
+#titulo{
+    color: var(--text);
+}
+.tituloCambio{
+    color: var(--text-tres);
+}
+#subtitulo{
+    color: var(--background-3);
+}
+#texto{
+    color: var(--background-3);
+}
+#card{
+    background: var(--background-2);
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.tituloIcon{
+    color: var(--text);
+    font-size: 20px;
+    margin: 0 5px;
+}
+.tituloIconVivo{
+    color: var(--color-activo);
+    font-size: 20px;
+    margin: 0 5px;
+}
+.tituloIconMuerto{
+    color: var(--color-inactivo);
+    font-size: 20px;
+    margin: 0 5px;
+}
+.tituloIconDesconocido{
+    color: var(--color-desconocido);
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+
+
+
+
+.range {
+    width: 100%;
+    height: 15px;
+    -webkit-appearance: none;
+    background: var(--background-6);
+    outline: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--text);
+    cursor: pointer;
+    border: 6px solid #333;
+    box-shadow: -407px 0 0 400px var(--text)
+  }
+ 
+.fz-14px{
+    font-size: 14px !important;
+}
+.fz-15px{
+    font-size: 15px !important;
+}
+.fz-16px{
+    font-size: 16px !important;
+}
+.fz-17px{
+    font-size: 17px !important;
+}
+
+
+
+.btn-close{
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    height: 30px;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23149ECA%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e");
+    /*background: var(--text);*/
+    background-size: 30% 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 1px solid var(--text);
+    border-radius: 50%;
+    
+}
+
+
+
+.bootstrapIcon path {
+    fill: #4c0bce !important;
+  }
+  .rickyIcon{
+    width: 100px;
+    height: 100px;
+    background: var(--logo);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+  }
+  
+  .cssIcon path {
+    fill: var(--text-tres) !important;
+  }
+  
+  #logo path:nth-child(1){
+    fill: var(--text-tres) !important;
+  
+  }
+  
+.tecnology{
+    display: inline-block;
+    
+}
+.tecnology:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+
+
+
+

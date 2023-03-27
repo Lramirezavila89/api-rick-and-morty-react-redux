@@ -1,0 +1,117 @@
+.buscador{
+ border-radius: 5px;
+ background: var(--search) !important;
+ color: var(--background-3) !important;
+ font-size: 14px !important;
+ font-weight: 600;
+}
+.buscador:focus,.buscador:hover{
+    border: 2px solid var(--text);
+}
+.buscador i{
+    margin: 0 10px;
+    font-size: 14px;
+    color: var(--text);
+}
+
+.modal-header{
+    border-bottom: none ;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+
+#search{
+  width: 100% !important;
+  height: 40px !important;
+  background: var(--search) !important;
+  color: var(--background-3) !important;
+  padding: 0 20px;
+  border-radius:5px;
+  margin: 10px;
+  border: none;
+  font-size: 15px !important;
+  font-weight: 600;
+
+}
+input::-webkit-input-placeholder {
+  text-overflow: inherit;
+  white-space: pre;
+  overflow-wrap: normal;
+  line-height: initial !important;
+  -webkit-user-modify: read-only !important;
+  overflow: hidden;
+  color: var(--background-3) !important;
+}
+
+#search:focus,#search:hover{
+  outline: 0;
+}
+
+
+.modal{
+  --bs-modal-bg: var(--background) !important;
+  --bs-modal-color: var(--background-3) !important;
+}
+.modal-header{
+  background: var(--background);
+}
+.boton-radio2{
+  border: 1px solid var(--text) !important;
+  color: var(--text) !important;
+  background: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  width: auto;
+  padding: 0px 10px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  transition: all 0.3s ease-in-out;
+  margin: 0px;
+  border-radius: 0;
+}
+.boton-radio2.uno{
+  border-radius: 5px 0 0 5px !important;
+}
+.boton-radio2.tres{
+  border-radius: 0 5px 5px 0 !important;
+}
+.boton-radio2:hover, .boton-radio2:checked{
+  border:1px solid var(--text) !important;
+  color: var(--color-blanco) !important;
+  background: var(--text) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: var(--color-blanco) !important;
+  background-color: var(--text) !important;
+  border-color: var(--text) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

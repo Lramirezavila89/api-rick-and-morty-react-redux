@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Api Rick and Morty 
+_Mediante este proyecto se busca desarrollar e implementar el consumo de una [API Rick and Morty](https://rickandmortyapi.com/) utilizando diferentes  tecnologías ( **vea inicio 1.0** ) para su funcionamiento; Es bueno resaltar que es mi primer proyecto aprendiendo **React**, por lo que será necesario detallarlo en caso que observen errores_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inicio 1.0 🚀
+Para iniciar debemos utilizar:
+1. [![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev)  **React** [ver más…]( https://es.reactjs.org/)
+2. [![My Skills](https://skillicons.dev/icons?i=redux)](https://skillicons.dev)  **Redux React** [ver más…](https://react-redux.js.org/)
+3. [![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)  **Router React** [ver más…]( https://reactrouter.com/en/main)
+4. [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)  **API Rick and Morty** [ver más…](https://rickandmortyapi.com/)
+5. [![My Skills](https://skillicons.dev/icons?i=bootstrap)](https://skillicons.dev) **Bootstrap** [ver más…](https://getbootstrap.com/)
+6. [![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)  **Lazy Loading Image** [ver más…]( https://www.npmjs.com/package/react-lazy-load-image-component)
+7. [![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)  **Scroll top** [ver más…]( https://www.npmjs.com/package/react-scroll-to-top)  
+8. [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) **Visual Studio Code** [ver más…]( https://code.visualstudio.com/) utilizado en ( **Instalación** )
 
-## Available Scripts
+## Instalación 🔧
 
-In the project directory, you can run:
+_1. Instalar **VISUAL STUDIO CODE** y sus plugins para cada referencia_
+_2. Descargamos nuestro proyecto y lo guardamos en un directorio de nuestro sistema operativo_
+_3. Accedemos al directorio del proyecto y abrimos Visual Studio Code ejecutando el directorio del proyecto_
+_4. Ejecutamos nuestro proyecto Ctrl + ñ y abrimos la terminal en VSC e Instalamos los siguientes comandos:_
 
-### `npm start`
+_( **Opción #1:** )_
+```
+npm install @reduxjs/toolkit react-redux axios bootstrap react-router-dom i react-scroll-to-top
+```
+_( **Opción #2:** )_
+```
+npm install @reduxjs/toolkit 
+```
+```
+npm install react-redux
+```
+```
+npm install axios 
+```
+```
+npm install bootstrap 
+```
+```
+npm install react-router-dom 
+```
+```
+npm i react-scroll-to-top
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_5. Finalizamos ejecutando el proyecto:_
+```
+npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Autor ✒️
 
-### `npm run build`
+* **Luis Enrique Ramírez Ávila** - *Taller # 1*  - *React* [Lramirezavila89](https://github.com/Lramirezavila89)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Gracias por visualizar y contribuir con este aprendizaje que les comparto a todos 🎁
+* Comenta a otros sobre este proyecto 📢
+* Invita e incentiva a las personas que deseen aprender JavaScript (React). 
+* gracias a todos 🤓.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
+⌨️ con ❤️ por [Lramirezavila89](https://github.com/Lramirezavila89) 😊
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
